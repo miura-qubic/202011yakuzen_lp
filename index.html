@@ -8,11 +8,15 @@
 	<title></title>
 	<link rel="shortcut icon" href="./images/favicon.ico" />
 	<link rel="apple-touch-icon" href="./images/favicon.ico" />
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./style.css">
 	<link rel="stylesheet" type="text/css" href="./css/desktop.css" media="screen and (min-width: 768px)">
 	<link rel="stylesheet" type="text/css" href="./css/tab.css"
 		media="screen and (min-width: 768px) and (max-width: 1025px)">
 	<link rel="stylesheet" type="text/css" href="./css/smart.css" media="screen and (max-width: 767px)">
+	<link rel="stylesheet" type="text/css" href="./css/swiper.min.css">
+	<script type="text/javascript" src="./js/swiper.min.js" defer></script>
 	<script defer src="./js/all.min.js"></script>
 	<!--[if lt IE 9]>
 	<script type="text/javascript" src="./js/selectivizr-min.js" defer></script>
@@ -24,6 +28,23 @@
 	<div id="wrapper">
 		<header>
 			<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ PCナビ ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
+			<div class="container">
+				<nav class="is_pc">
+					<ul>
+						<li class="logo">
+							<h1><img src="./images/common/logo.png" alt="国際薬膳学院"></h1>
+						</li>
+						<li class="btn store">
+							<a href="https://yakuzen-table.stores.jp/" target="_blank" rel="noopener">
+								<span><i class="fal fa-shopping-cart"></i></span>教材オンラインストア
+							</a>
+						</li>
+						<li class="btn tel">
+							<a><img src="./images/common/tel.png" alt="06-6358-8901 （火）〜（金）10:00〜17:00（土）10:00〜14:00"></a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 			<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ PCナビ ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
 
 			<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ SPナビ ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
@@ -39,11 +60,306 @@
 		<main>
 
 			<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
-			<section class="top01"></section>
+			<section class="top01">
+				<div class="mv">
+					<div class="img01">
+						<img src="./images/top/mv.jpg" alt="">
+					</div>
+
+					<div class="box">
+						<div class="img">
+							<img src="./images/top/top01_01.png" alt="">
+						</div>
+						<div class="txt">
+							<h2 class="kaimin">自宅学習で<br>身につく<br>薬膳教材。</h2>
+							<p class="times txt_grd">
+								<span class="happytime">Created By：</span><br>
+								International Yakuzen Academy
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
 			<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
 
 			<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
+			<section class="top02">
+				<div class="container">
+					<div class="box">
+						<h2>
+							<span class="txt_grd">中国薬膳の季節感のズレや使えない食材を</span><br>
+							<span class="txt_grd">全て「日本で薬膳を実践すること」にフォーカスしました。</span>
+						</h2>
+
+						<div class="item">
+							<div class="img_wrap">
+								<div class="img">
+									<img src="./images/top/top02_01.jpg" alt="薬膳専門教育の学校が作る日本人のための薬膳学習教材">
+								</div>
+								<p>日本で無理なく手に入る食材を使って、作る人も食べる人も続けやすい薬膳実践方法を具体的にわかりやすく習得できます。</p>
+							</div>
+							<div class="txt">
+								<p class="vertical_txt">
+									薬膳専門教育の学校が作る<br>
+									<span class="txt_grd">日本人のため</span>の薬膳学習教材
+								</p>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="img_wrap">
+								<div class="img">
+									<img src="./images/top/top02_02.jpg" alt="">
+								</div>
+								<p>手元に置いておけるDVD素材は何度でも見返せて復習ができます。学んだ内容はその日のごはんに即活かせる知識ばかりです。</p>
+							</div>
+							<div class="txt">
+								<p class="vertical_txt">学ぶ＝<span class="txt_grd">活かせる</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 			<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
+
+			<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
+			<section class="top03">
+				<div class="back">
+					<img class="objectCover" src="./images/top/top03_back.jpg" alt="">
+				</div>
+
+				<div class="txt">
+					<h2><span class="green">薬膳初心者</span>から<span class="red">プロ</span>まで学べる<span class="gold">レベル別薬膳教材</span></h2>
+					<p>はじめての方からプロを目指す方まで、レベルに合わせた教材をご用意いたしました。<br>
+						ご家族の健康管理、仕事での活用、また薬膳のプロになるための資格取得に<br>
+						教材をご活用ください。</p>
+				</div>
+			</section>
+			<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
+
+			<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ04 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
+			<section class="top04">
+				<div class="container">
+					<div class="ttl_wrap green">
+						<div class="ttl_wrap_in">
+							<p>初めての方におすすめ</p>
+							<h2 class="ttl">「わかる！使える！」通信教材</h2>
+						</div>
+					</div>
+
+					<div class="box">
+						<div class="item item01">
+							<div class="l_item">
+								<p class="catch notosans">
+									テーマ別単発講座DVD教材「私のセルフケアシリーズ」<br>
+									お好きなデーマだけを選んで受講できる単発講座です。
+								</p>
+								<div class="cat_wrap notosans">
+									<p class="cat_green">初心者向け</p>
+									<p class="cat_pink">自宅学習用DVD付き</p>
+									<p class="cat_blue">ポイント学習</p>
+								</div>
+
+								<h3 class="green">
+									私の薬膳セルフケアシリーズ①<br>
+									気血水の体質診断と薬膳スープの作り方
+								</h3>
+
+								<div class="inner01 notosans">
+									<p class="txtbox">教材内容</p>
+									<ul>
+										<li>レシピカード4品付き</li>
+										<li>体質チェックシート付</li>
+										<li>レジュメ1冊</li>
+										<li>DVD1枚</li>
+										<li>レシピカード用ファイル1冊（初回のみ）</li>
+									</ul>
+									<p class="price">¥11,000<span>（税込）</span></p>
+								</div>
+
+								<div class="inner02 hiragino">
+									<div class="txt01">
+										<h4>【座学内容】</h4>
+										<div class="flex_list">
+											<ul>
+												<li>美容薬膳とは</li>
+												<li>薬膳生活実践ポイント</li>
+												<li>気血水とは</li>
+												<li>体質トラブル「気虚」「気滞」</li>
+												<li>体質トラブル「血虚」「瘀血」</li>
+											</ul>
+											<ul>
+												<li>体質トラブル「陰虚」「水毒（痰湿）」</li>
+												<li>体質チェックシートで体質を知ってみよう</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="txt02">
+										<h4>【調理動画内容】</h4>
+										<ul>
+											<li>基本の薬膳スープの作り方</li>
+											<li>気虚や気滞改善　気のトラブルに良い薬膳スープの作り方</li>
+											<li>血虚や瘀血改善　血のトラブルに良い薬膳スープの作り方</li>
+											<li>陰虚や水毒改善　水のトラブルに良い薬膳スープの作り方</li>
+										</ul>
+									</div>
+								</div>
+
+								<dl class="notosans">
+									<dt>習熟目安</dt>
+									<dd>1日の動画視聴と調理動画を見ながらの薬膳調理を週1シレピで約ひと月</dd>
+								</dl>
+							</div>
+
+							<div class="r_item">
+								<div class="slider">
+									<div class="swiper-container">
+										<div class="swiper-wrapper">
+											<div class="img swiper-slide">
+												<img src="./images/top/top04_01.png" alt="">
+											</div>
+											<div class="img swiper-slide">
+												<img src="./images/top/top04_02.png" alt="">
+											</div>
+											<div class="img swiper-slide">
+												<img src="./images/top/top04_03.png" alt="">
+											</div>
+											<div class="img swiper-slide">
+												<img src="./images/top/top04_04.png" alt="">
+											</div>
+											<div class="img swiper-slide">
+												<img src="./images/top/top04_05.png" alt="">
+											</div>
+											<div class="img swiper-slide">
+												<img src="./images/top/top04_06.png" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="swiper-pagination"></div>
+								</div>
+
+								<div class="btn notosans">
+									<a href="https://yakuzen-table.stores.jp/items/5f65764e4b083907b960335d" target="_blank" rel="noopener"><span>ご購入はこちら</span></a>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="item item02">
+							<div class="l_item">
+								<p class="catch notosans">
+									テーマ別単発講座DVD教材「私のセルフケアシリーズ」<br>
+									お好きなデーマだけを選んで受講できる単発講座です。
+								</p>
+								<div class="cat_wrap notosans">
+									<p class="cat_green">初心者向け</p>
+									<p class="cat_pink">自宅学習用DVD付き</p>
+									<p class="cat_blue">ポイント学習</p>
+								</div>
+
+								<h3 class="green">
+									私の薬膳セルフケアシリーズ②<br>
+									中医美容学で肌を美しく<br>
+									「ニキビ・吹き出物改善の美容薬膳」
+								</h3>
+
+								<div class="inner01 notosans">
+									<p class="txtbox">教材内容</p>
+									<ul>
+										<li>レシピカード4品付き</li>
+										<li>レジュメ1冊</li>
+										<li>DVD1枚</li>
+										<li>レシピカード用ファイル1冊（初回のみ）</li>
+									</ul>
+									<p class="price">¥11,000<span>（税込）</span></p>
+								</div>
+
+								<div class="inner02 hiragino">
+									<div class="txt01">
+										<h4>【座学内容】</h4>
+										<div class="flex_list">
+											<ul>
+												<li>美容薬膳とは</li>
+												<li>美容トラブル別に原因があります</li>
+												<li>年代別に多い肌トラブル</li>
+												<li>ニキビ・吹き出物の原因</li>
+												<li>学生時代のニキビ・中高年のニキビ</li>
+											</ul>
+											<ul>
+												<li>ニキビ・吹き出物が出る場所で知る体の状態</li>
+												<li>ニキビの色で知る食材</li>
+												<li>ニキビ・吹き出物に使う食材</li>
+												<li>ニキビ・吹き出物の出る位置別薬膳メニュー4品</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="txt02">
+										<h4>【調理動画内容】</h4>
+										<ul>
+											<li>ごぼう入り鶏ささみのつくね　梅紫蘇ソース</li>
+											<li>ゆり根と湯葉のくず豆腐あんかけ</li>
+											<li>はと麦入りミネストローネ</li>
+											<li>あさりとうずらの卵入り　ひじきの煮物</li>
+										</ul>
+									</div>
+								</div>
+
+								<dl class="notosans">
+									<dt>習熟目安</dt>
+									<dd>1日の動画視聴と調理動画を見ながらの薬膳調理を週1シレピで約ひと月</dd>
+								</dl>
+							</div>
+
+							<div class="r_item">
+								<div class="slider">
+									<div class="swiper-container">
+										<div class="swiper-wrapper">
+											<div class="img swiper-slide">
+												<img src="./images/top/top04_07.png" alt="">
+											</div>
+											<div class="img swiper-slide">
+												<img src="./images/top/top04_08.png" alt="">
+											</div>
+											<div class="img swiper-slide">
+												<img src="./images/top/top04_09.png" alt="">
+											</div>
+											<div class="img swiper-slide">
+												<img src="./images/top/top04_10.png" alt="">
+											</div>
+											<div class="img swiper-slide">
+												<img src="./images/top/top04_11.png" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="swiper-pagination"></div>
+								</div>
+
+								<div class="btn notosans">
+									<a href="https://yakuzen-table.stores.jp/items/5f658b9a3ae0f409b469c06f" target="_blank" rel="noopener"><span>ご購入はこちら</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ04 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
+
+			<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ05 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
+			<section class="top05">
+				<div class="container">
+					<div class="ttl_wrap pink">
+						<div class="ttl_wrap_in">
+							<p>初めての方におすすめ</p>
+							<h2 class="ttl">「わかる！使える！」通信教材</h2>
+						</div>
+					</div>
+
+
+				</div>
+			</section>
+			<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ05 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
 
 		</main>
 		<footer>
