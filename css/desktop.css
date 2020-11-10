@@ -148,7 +148,6 @@ section,
 }
 .ttl_wrap .ttl_wrap_in::before,
 .ttl_wrap .ttl_wrap_in::after{
-	font-size: 3rem;
 	position: absolute;
 	content: '';
 	top: 50%;
@@ -368,6 +367,7 @@ footer .copy{
 }
 .top01 .mv .box .txt h2{
 	font-size: 3.5rem;
+	font-weight: normal;
 	line-height: 1.3;
 	letter-spacing: 0.5rem;
 	margin-bottom: 1.25rem;
@@ -384,6 +384,7 @@ footer .copy{
 	padding: 5rem 0;
 }
 .top02 .box h2{
+	font-size: 1.8rem;
 	text-align: center;
 	letter-spacing: 0.2rem;
 	margin-bottom: 4rem;

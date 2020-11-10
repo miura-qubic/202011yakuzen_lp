@@ -6,13 +6,13 @@ const spwidth = 767;
 const tabletwidth = 1025;
 
 {
-	const openMenu = document.getElementById('menu_open');
-	const Nav = document.querySelector('header nav');
+	// const openMenu = document.getElementById('menu_open');
+	// const Nav = document.querySelector('header nav');
 
-	openMenu.addEventListener('click', function () {
-		openMenu.classList.toggle('active');
-		Nav.classList.toggle('active');
-	});
+	// openMenu.addEventListener('click', function () {
+	// 	openMenu.classList.toggle('active');
+	// 	Nav.classList.toggle('active');
+	// });
 }
 
 
@@ -42,6 +42,10 @@ $(window).on('load resize', function () {
 				slidesPerView: 1.6,
 				spaceBetween: 30,
 			},
+			767: {
+				slidesPerView: 1,
+				spaceBetween: 0,
+			},
 		},
 		pagination: {
 			el: '.top04 .item01 .slider .swiper-pagination',
@@ -63,6 +67,10 @@ $(window).on('load resize', function () {
 			1025: {
 				slidesPerView: 1.6,
 				spaceBetween: 30,
+			},
+			767: {
+				slidesPerView: 1,
+				spaceBetween: 0,
 			},
 		},
 		pagination: {
@@ -86,6 +94,10 @@ $(window).on('load resize', function () {
 				slidesPerView: 1.6,
 				spaceBetween: 30,
 			},
+			767: {
+				slidesPerView: 1,
+				spaceBetween: 0,
+			},
 		},
 		pagination: {
 			el: '.top04 .item03 .slider .swiper-pagination',
@@ -107,6 +119,10 @@ $(window).on('load resize', function () {
 			1025: {
 				slidesPerView: 1.6,
 				spaceBetween: 30,
+			},
+			767: {
+				slidesPerView: 1,
+				spaceBetween: 0,
 			},
 		},
 		pagination: {
@@ -130,6 +146,10 @@ $(window).on('load resize', function () {
 				slidesPerView: 1.6,
 				spaceBetween: 30,
 			},
+			767: {
+				slidesPerView: 1,
+				spaceBetween: 0,
+			},
 		},
 		pagination: {
 			el: '.top05 .item01 .slider .swiper-pagination',
@@ -151,6 +171,10 @@ $(window).on('load resize', function () {
 			1025: {
 				slidesPerView: 1.6,
 				spaceBetween: 30,
+			},
+			767: {
+				slidesPerView: 1,
+				spaceBetween: 0,
 			},
 		},
 		pagination: {
@@ -174,6 +198,10 @@ $(window).on('load resize', function () {
 				slidesPerView: 1.6,
 				spaceBetween: 30,
 			},
+			767: {
+				slidesPerView: 1,
+				spaceBetween: 0,
+			},
 		},
 		pagination: {
 			el: '.top05 .item03 .slider .swiper-pagination',
@@ -195,6 +223,10 @@ $(window).on('load resize', function () {
 			1025: {
 				slidesPerView: 1.6,
 				spaceBetween: 30,
+			},
+			767: {
+				slidesPerView: 1,
+				spaceBetween: 0,
 			},
 		},
 		pagination: {
@@ -218,6 +250,10 @@ $(window).on('load resize', function () {
 				slidesPerView: 1.6,
 				spaceBetween: 30,
 			},
+			767: {
+				slidesPerView: 1,
+				spaceBetween: 0,
+			},
 		},
 		pagination: {
 			el: '.top06 .item02 .slider .swiper-pagination',
@@ -239,6 +275,10 @@ $(window).on('load resize', function () {
 			1025: {
 				slidesPerView: 1.6,
 				spaceBetween: 30,
+			},
+			767: {
+				slidesPerView: 1,
+				spaceBetween: 0,
 			},
 		},
 		pagination: {

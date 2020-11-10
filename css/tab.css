@@ -42,7 +42,8 @@ footer .f_map .box:nth-of-type(2){
 .teaching_materials .item{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	align-items: center;
+	justify-content: flex-start;
 }
 .teaching_materials .item .l_item{
 	width: 100%;
