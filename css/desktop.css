@@ -9,6 +9,7 @@ html{
 	color: #000;
 	font-size: 16px;
 	font-family: 'Noto Serif JP', serif;
+	/*font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;*/
 	/*font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;*/
 	/*font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;*/
 	/*font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;*/
@@ -331,6 +332,11 @@ footer .copy{
 	color: #666;
 	text-align: right;
 }
+@media screen and (min-width:1026px) and ( max-width:1279px) {
+	footer .f_map .box:nth-of-type(2){
+		width: 32%;
+	}
+}
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ フッター ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
@@ -424,14 +430,11 @@ footer .copy{
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.top03 .back{
-	height: 25rem;
+.top03{
+	padding: 5rem 0;
+	background: url(../images/top/top03_back.jpg) top right 60% / cover no-repeat;
 }
 .top03 .txt{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
 	width: 100%;
 	text-align: center;
 }
@@ -628,6 +631,7 @@ footer .copy{
 }
 .teaching_materials .r_item .slider .swiper-pagination .swiper-pagination-bullet{
 	margin: 0 8px;
+	outline: none;
 }
 .teaching_materials .r_item .slider .swiper-pagination .swiper-pagination-bullet-active{
 	background: #000;
@@ -798,7 +802,7 @@ footer .copy{
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ09 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .top09{
 	padding: 5rem 0;
-	background: url(../images/top/top09_back.jpg) top left / cover no-repeat;
+	background: url(../images/top/top09_back.jpg) top right 30% / cover no-repeat;
 }
 .top09 h2{
 	max-width: 600px;
@@ -891,6 +895,7 @@ footer .copy{
 }
 .top10 .item .txt{
 	width: 75%;
+	padding-bottom: 2rem;
 }
 .top10 .item .txt h4{
 	color: #b28850;
@@ -913,7 +918,7 @@ footer .copy{
 }
 .top10 .item .img_wrap p{
 	position: absolute;
-	top: 15%;
+	top: 10%;
 	right: -1rem;
 	font-size: 0.9rem;
 	letter-spacing: 0.1rem;

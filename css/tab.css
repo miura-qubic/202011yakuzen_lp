@@ -1,3 +1,34 @@
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ フッター ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+footer .sns_box .box{
+	width: 48%;
+	padding: 1.5rem;
+}
+footer .f_map{
+	display: block;
+}
+footer .f_map .box:nth-of-type(1){
+	width: 100%;
+}
+footer .f_map .box:nth-of-type(2){
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-top: 2rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ フッター ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.top01 .mv .box .txt h2{
+	font-size: 2.6rem;
+}
+.top01 .mv .box .txt p{
+	font-size: 1.25rem;
+	letter-spacing: 0.1rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .top02 .item .img_wrap{
 	width: 82%;
@@ -7,6 +38,26 @@
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 教材紹介共通 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.teaching_materials .item{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.teaching_materials .item .l_item{
+	width: 100%;
+	order: 2;
+}
+.teaching_materials .r_item{
+	width: 100%;
+	display: block;
+	margin-bottom: 2.5rem;
+}
+.teaching_materials .r_item .slider{
+	margin-bottom: 4rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 教材紹介共通 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ08 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .top08_in .box .item .list01 li{
 	font-size: 0.9rem;
@@ -14,4 +65,22 @@
 .top08_in .box .item .inner .list02 li{
 	font-size: 0.9rem;
 }
-/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ09 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ08 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ10 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.top10 .item{
+	align-items: flex-end;
+}
+.top10 .item .txt{
+	width: 70%;
+}
+.top10 .item .img_wrap{
+	width: 25%;
+}
+.top10 .item .img_wrap p{
+	top: 0;
+	right: -1rem;
+	font-size: 0.9rem;
+	letter-spacing: 0.05rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ10 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */

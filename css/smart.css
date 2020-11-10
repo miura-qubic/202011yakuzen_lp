@@ -2,9 +2,10 @@
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ ベース設定 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 body{-webkit-text-size-adjust: 100%;}
 html{
-	color: ;
+	color: #000;
 	font-size: 15px;
-	line-height: ;
+	line-height: 1.8;
+	font-family: 'Noto Serif JP', serif;
 	/*font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;*/
 	/*font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;*/
 	/*font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;*/
@@ -12,12 +13,14 @@ html{
 	-webkit-text-size-adjust: 100%;
 }
 a{
-	color: ;
+	color: #666;
 	display: block;
 }
 #wrapper{
 	width: 100%;
 	height: 100%;
+	margin: 5.5rem auto 0;
+	overflow: hidden;
 }
 section,
 .section{
@@ -68,7 +71,59 @@ section,
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ ベース設定 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 共通 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
- 
+.hiragino{
+	font-family: "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+}
+.notosans{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 900;
+}
+@font-face{
+	font-family: 'kaimin';
+	src:url('../fonts/A-OTF-KaiminSoStd-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'happytime';
+	src:url('../fonts/HappyTimeThree.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'times';
+	src:url('../fonts/Times.ttc') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+.kaimin{ font-family: 'kaimin', serif; }
+.happytime{ font-family: 'happytime', serif; }
+.times{ font-family: 'times', serif; }
+.txt_grd{
+	display: inline-block;
+	color: transparent;
+	background: linear-gradient(0deg, #78440c 0%, #b77f08 38%, #6f5506 92%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.vertical_txt{
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
+}
+.green{ color: #61ad86; }
+.red{ color: #d74b40; }
+.gold{ color: #d2a568; }
+.brown{ color: #6e4104; }
+.pink{ color: #f7686a; }
+.darkorange{ color: #e74513; }
+.darkorange2{ color: #e95833; }
+.ttl_wrap{
+	text-align: center;
+}
+.ttl_wrap.gold{
+	color: #b28850;
+}
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 共通 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ ナビ ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */

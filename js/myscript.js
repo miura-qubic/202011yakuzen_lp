@@ -37,6 +37,12 @@ $(window).on('load resize', function () {
 			delay: 5000,
 			disableOnInteraction: true
 		},
+		breakpoints: {
+			1025: {
+				slidesPerView: 1.6,
+				spaceBetween: 30,
+			},
+		},
 		pagination: {
 			el: '.top04 .item01 .slider .swiper-pagination',
 			type: 'bullets',
@@ -52,6 +58,12 @@ $(window).on('load resize', function () {
 		autoplay: {
 			delay: 5000,
 			disableOnInteraction: true
+		},
+		breakpoints: {
+			1025: {
+				slidesPerView: 1.6,
+				spaceBetween: 30,
+			},
 		},
 		pagination: {
 			el: '.top04 .item02 .slider .swiper-pagination',
@@ -69,6 +81,12 @@ $(window).on('load resize', function () {
 			delay: 5000,
 			disableOnInteraction: true
 		},
+		breakpoints: {
+			1025: {
+				slidesPerView: 1.6,
+				spaceBetween: 30,
+			},
+		},
 		pagination: {
 			el: '.top04 .item03 .slider .swiper-pagination',
 			type: 'bullets',
@@ -84,6 +102,12 @@ $(window).on('load resize', function () {
 		autoplay: {
 			delay: 5000,
 			disableOnInteraction: true
+		},
+		breakpoints: {
+			1025: {
+				slidesPerView: 1.6,
+				spaceBetween: 30,
+			},
 		},
 		pagination: {
 			el: '.top04 .item04 .slider .swiper-pagination',
@@ -101,6 +125,12 @@ $(window).on('load resize', function () {
 			delay: 5000,
 			disableOnInteraction: true
 		},
+		breakpoints: {
+			1025: {
+				slidesPerView: 1.6,
+				spaceBetween: 30,
+			},
+		},
 		pagination: {
 			el: '.top05 .item01 .slider .swiper-pagination',
 			type: 'bullets',
@@ -116,6 +146,12 @@ $(window).on('load resize', function () {
 		autoplay: {
 			delay: 5000,
 			disableOnInteraction: true
+		},
+		breakpoints: {
+			1025: {
+				slidesPerView: 1.6,
+				spaceBetween: 30,
+			},
 		},
 		pagination: {
 			el: '.top05 .item02 .slider .swiper-pagination',
@@ -133,6 +169,12 @@ $(window).on('load resize', function () {
 			delay: 5000,
 			disableOnInteraction: true
 		},
+		breakpoints: {
+			1025: {
+				slidesPerView: 1.6,
+				spaceBetween: 30,
+			},
+		},
 		pagination: {
 			el: '.top05 .item03 .slider .swiper-pagination',
 			type: 'bullets',
@@ -148,6 +190,12 @@ $(window).on('load resize', function () {
 		autoplay: {
 			delay: 5000,
 			disableOnInteraction: true
+		},
+		breakpoints: {
+			1025: {
+				slidesPerView: 1.6,
+				spaceBetween: 30,
+			},
 		},
 		pagination: {
 			el: '.top06 .item01 .slider .swiper-pagination',
@@ -165,6 +213,12 @@ $(window).on('load resize', function () {
 			delay: 5000,
 			disableOnInteraction: true
 		},
+		breakpoints: {
+			1025: {
+				slidesPerView: 1.6,
+				spaceBetween: 30,
+			},
+		},
 		pagination: {
 			el: '.top06 .item02 .slider .swiper-pagination',
 			type: 'bullets',
@@ -180,6 +234,12 @@ $(window).on('load resize', function () {
 		autoplay: {
 			delay: 5000,
 			disableOnInteraction: true
+		},
+		breakpoints: {
+			1025: {
+				slidesPerView: 1.6,
+				spaceBetween: 30,
+			},
 		},
 		pagination: {
 			el: '.top07 .item01 .slider .swiper-pagination',
