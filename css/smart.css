@@ -408,6 +408,10 @@ footer .copy{
 	font-weight: bold;
 	line-height: 2.2;
 	letter-spacing: 0.05rem;
+	text-shadow: 1px 1px 2px #fff,
+			1px -1px 2px #fff,
+			-1px 1px 2px #fff,
+			-1px -1px 2px #fff;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
@@ -452,10 +456,13 @@ footer .copy{
 .teaching_materials .r_item .slider .swiper-pagination .swiper-pagination-bullet-active{
 	background: #000;
 }
-.teaching_materials .r_item .btn{
+.teaching_materials .btn{
 	width: 100%;
 }
-.teaching_materials .r_item .btn a{
+.teaching_materials .l_item .btn{
+	margin-top: 1.5rem;
+}
+.teaching_materials .btn a{
 	color: #b28850;
 	padding: 0.5rem;
 	letter-spacing: 0.1rem;
@@ -463,7 +470,7 @@ footer .copy{
 	border: solid 2px #b28850;
 	border-radius: 10px;
 }
-.teaching_materials .r_item .btn a span::after{
+.teaching_materials .btn a span::after{
 	content: '>';
 	margin-left: 0.75rem;
 }

@@ -123,6 +123,12 @@ section,
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+@media all and (-ms-high-contrast: none) {
+	.txt_grd{
+		color: #b77f08;
+		background: none;
+	}
+}
 .vertical_txt{
 	-ms-writing-mode: tb-rl;
 	-webkit-writing-mode: vertical-rl;
@@ -491,8 +497,12 @@ footer .copy{
 	margin-top: 0.5rem;
 	border-radius: 0.2rem;
 }
+.teaching_materials .cat_wrap p.medium{
+	width: 15rem;
+	padding: 0.25rem 0.75rem;
+}
 .teaching_materials .cat_wrap p.large{
-	width: unset;
+	width: 33rem;
 	padding: 0.25rem 0.75rem;
 }
 .teaching_materials .cat_wrap p:last-of-type{
@@ -810,6 +820,9 @@ footer .copy{
 	border-style: solid;
 	border-width: 1.5rem 1.5rem 0 1.5rem;
 	border-color: #d2a568 transparent transparent transparent;
+}
+.top08_in .box .item .inner .list02 li{
+	font-size: 0.9rem;
 }
 .top08_in .box .item .inner .list02 li::before{
 	content: '●';
