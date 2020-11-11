@@ -376,6 +376,7 @@ footer .copy{
 }
 .top02 .item .img_wrap p{
 	font-weight: bold;
+	letter-spacing: 0.05rem;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
@@ -395,10 +396,13 @@ footer .copy{
 	border-bottom: solid 2px #d2a568;
 	padding-bottom: 0.5rem;
 	margin-bottom: 1.75rem;
+	letter-spacing: 0.1rem;
 }
 .top03 .txt p{
+	font-size: 0.9rem;
 	font-weight: bold;
 	line-height: 2.2;
+	letter-spacing: 0.05rem;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
@@ -685,6 +689,7 @@ footer .copy{
 	background: #cfa972;
 	padding: 0.25rem 0.5rem;
 	margin-top: 0.5rem;
+	letter-spacing: 0.05rem;
 }
 .top08_in .box .item .inner{
 	position: relative;

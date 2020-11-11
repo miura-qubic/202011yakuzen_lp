@@ -413,6 +413,7 @@ footer .copy{
 .top02 .item .img_wrap p{
 	font-size: 1.1rem;
 	font-weight: bold;
+	letter-spacing: 0.05rem;
 }
 .top02 .item .txt{
 	/* width: 12%; */
@@ -445,10 +446,12 @@ footer .copy{
 	border-bottom: solid 2px #d2a568;
 	padding-bottom: 0.5rem;
 	margin-bottom: 2rem;
+	letter-spacing: 0.2rem;
 }
 .top03 .txt p{
 	font-weight: bold;
 	line-height: 2.4;
+	letter-spacing: 0.05rem;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
@@ -599,18 +602,22 @@ footer .copy{
 }
 .teaching_materials .l_item dt,
 .teaching_materials .l_item dd{
-	padding: 0.25rem 1.5rem;
 	font-size: 0.8rem;
 	letter-spacing: 0.1rem;
 }
 .teaching_materials .l_item dt{
-	width: 18%;
+	width: 20%;
+	padding: 0.25rem 1rem;
 	color: #fff;
 	background: #b28850;
 	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .teaching_materials .l_item dd{
-	width: 82%;
+	width: 80%;
+	padding: 0.25rem 1.5rem;
 	background: #f3e8d9;
 }
 
@@ -662,6 +669,14 @@ footer .copy{
 .teaching_materials .r_item .btn a span::after{
 	content: '>';
 	margin-left: 1rem;
+}
+@media screen and (min-width:1026px) and ( max-width:1279px) {
+	.teaching_materials .l_item .inner02 .txt01 .flex_list ul:first-of-type{
+		width: 100%;
+	}
+	.teaching_materials .l_item .inner02 .txt01 .flex_list ul:nth-of-type(2){
+		width: 100%;
+	}
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 教材紹介共通 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
@@ -772,6 +787,7 @@ footer .copy{
 	background: #cfa972;
 	padding: 0.25rem 0.5rem;
 	margin-top: 0.5rem;
+	letter-spacing: 0.1rem;
 }
 
 .top08_in .box .item .inner{
@@ -802,7 +818,7 @@ footer .copy{
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ09 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .top09{
-	padding: 5rem 0;
+	padding: 5rem 0 6rem;
 	background: url(../images/top/top09_back.jpg) 70% 0% / cover no-repeat;
 }
 .top09 h2{
