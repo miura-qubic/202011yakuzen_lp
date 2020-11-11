@@ -803,7 +803,7 @@ footer .copy{
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ09 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .top09{
 	padding: 5rem 0;
-	background: url(../images/top/top09_back.jpg) top right 30% / cover no-repeat;
+	background: url(../images/top/top09_back.jpg) 70% 0% / cover no-repeat;
 }
 .top09 h2{
 	max-width: 600px;
