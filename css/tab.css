@@ -38,6 +38,13 @@ footer .f_map .box:nth-of-type(2){
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.top03::before{
+	transform: translateX(-50%) translateY(3.5rem);
+	height: 7rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 教材紹介共通 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .teaching_materials .item{
 	display: flex;

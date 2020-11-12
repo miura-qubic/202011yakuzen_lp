@@ -442,6 +442,16 @@ footer .copy{
 	padding: 5rem 0;
 	background: url(../images/top/top03_back.jpg) top right 60% / cover no-repeat;
 }
+.top03::before{
+	position: absolute;
+	content: '';
+	bottom: 100%;
+	left: 50%;
+	transform: translateX(-50%) translateY(4rem);
+	width: 2px;
+	height: 8rem;
+	background: #d2a568;
+}
 .top03 .txt{
 	width: 100%;
 	text-align: center;
@@ -572,6 +582,9 @@ footer .copy{
 }
 .teaching_materials .l_item .inner02 .txt01:last-of-type{
 	margin-bottom: 0;
+}
+.teaching_materials .l_item .inner02 .txt03{
+	margin-top: 1rem;
 }
 .teaching_materials .l_item .inner02 .txt01 .flex_list{
 	display: flex;
