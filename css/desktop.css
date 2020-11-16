@@ -885,6 +885,12 @@ footer .copy{
 .top08 .box .item .inner .list02 li:nth-of-type(-n+2){
 	margin-top: 0;
 }
+.top08 .box .item .inner .list02 li a{
+	transition: .3s;
+}
+.top08 .box .item .inner .list02 li a:hover{
+	opacity: .6;
+}
 .top08 .box .item .inner .list02 li .img img{
 	width: auto;
 	height: 7.5rem;
