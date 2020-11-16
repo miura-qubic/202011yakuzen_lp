@@ -86,11 +86,23 @@ footer .f_map .box:nth-of-type(2){
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 教材紹介共通 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ08 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.top08_in .box .item .list01 li{
+.top08 .box .item .list01 li{
 	font-size: 0.9rem;
 }
-.top08_in .box .item .inner .list02 li{
+/* .top08 .box .item .inner .list02 li{
 	font-size: 0.9rem;
+} */
+.top08 .box .item .inner{
+	padding: 1.25rem 1rem;
+	height: 28rem;
+}
+.top08 .box .item:nth-of-type(4) .inner,
+.top08 .box .item:nth-of-type(5) .inner{
+	height: 20rem;
+}
+.top08 .box .item .inner .list02 li .img img{
+	width: auto;
+	height: 6rem;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ08 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 

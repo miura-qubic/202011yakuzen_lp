@@ -337,9 +337,17 @@ footer .copy{
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .top02{
-	padding: 2.5rem 0;
+	padding: 2.5rem 0 1rem;
 }
-.top02 .box h2{
+.top02 .box .ttl_box{
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+.top02 .box .ttl_box h2{
+	font-size: 1.3rem;
+	letter-spacing: 0.1rem;
+}
+.top02 .box h3{
 	font-size: 1.3rem;
 	text-align: center;
 	letter-spacing: 0.1rem;
@@ -466,6 +474,37 @@ footer .copy{
 .teaching_materials .r_item .slider .swiper-pagination .swiper-pagination-bullet-active{
 	background: #000;
 }
+.teaching_materials .r_item .slider img{
+	width: 100%;
+	height: auto;
+}
+
+.teaching_materials .r_item .inner{
+	width: 100%;
+	margin-bottom: 0.75rem;
+}
+.teaching_materials .r_item .inner .txtbox{
+	display: inline-block;
+	font-size: 0.7rem;
+	letter-spacing: 0.05rem;
+	border: solid 1px #000;
+	padding: 0 0.5rem;
+	margin-bottom: 0.25rem;
+}
+.teaching_materials .r_item .inner ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 0.75rem;
+}
+.teaching_materials .r_item .inner ul li{
+	font-size: 0.8rem;
+	letter-spacing: 0.05rem;
+	margin-right: 1rem;
+}
+.teaching_materials .r_item .inner ul li::before{
+	content: '●';
+}
+
 .teaching_materials .btn{
 	width: 100%;
 }
@@ -531,70 +570,47 @@ footer .copy{
 	margin-bottom: 1rem;
 }
 
-.teaching_materials .l_item .inner01{
-	margin-bottom: 1.25rem;
-}
-.teaching_materials .l_item .inner01 .txtbox{
-	display: inline-block;
-	font-size: 0.7rem;
-	letter-spacing: 0.05rem;
-	border: solid 1px #000;
-	padding: 0 0.5rem;
-	margin-bottom: 0.25rem;
-}
-.teaching_materials .l_item .inner01 ul{
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 0.75rem;
-}
-.teaching_materials .l_item .inner01 ul li{
-	font-size: 0.8rem;
-	letter-spacing: 0.05rem;
-	margin-right: 1rem;
-}
-.teaching_materials .l_item .inner01 ul li::before{
-	content: '●';
-}
-.teaching_materials .l_item .inner01 .price{
+.teaching_materials .l_item .price{
 	display: inline-block;
 	font-size: 1.1rem;
 	letter-spacing: 0.1rem;
 	border-bottom: solid 2px #000;
+	margin-bottom: 1.25rem;
 }
-.teaching_materials .l_item .inner01 .price span{
+.teaching_materials .l_item .price span{
 	font-size: 0.7rem;
 }
 
-.teaching_materials .l_item .inner02 h4{
+.teaching_materials .l_item .inner01 h4{
 	font-size: 0.8rem;
 	font-weight: normal;
 }
-.teaching_materials .l_item .inner02 ul{
+.teaching_materials .l_item .inner01 ul{
 	margin-left: 1rem;
 }
-.teaching_materials .l_item .inner02 .txt01{
+.teaching_materials .l_item .inner01 .txt01{
 	margin-bottom: 1rem;
 }
-.teaching_materials .l_item .inner02 .txt01:last-of-type{
+.teaching_materials .l_item .inner01 .txt01:last-of-type{
 	margin-bottom: 0;
 }
-.teaching_materials .l_item .inner02 .txt03{
+.teaching_materials .l_item .inner01 .txt03{
 	margin-top: 1rem;
 }
-.teaching_materials .l_item .inner02 ul li{
+.teaching_materials .l_item .inner01 ul li{
 	list-style: disc;
 	font-size: 0.8rem;
 }
-.teaching_materials .l_item .inner02 ol li{
+.teaching_materials .l_item .inner01 ol li{
 	font-size: 0.8rem;
 }
-.teaching_materials .l_item .inner02 p{
+.teaching_materials .l_item .inner01 p{
 	font-size: 0.8rem;
 }
-.teaching_materials .l_item .inner02 p + p{
+.teaching_materials .l_item .inner01 p + p{
 	margin-top: 1rem;
 }
-.teaching_materials .l_item .inner02 a{
+.teaching_materials .l_item .inner01 a{
 	font-size: 0.875rem;
 	color: #158ec7;
 	letter-spacing: 0.05rem;
@@ -670,21 +686,19 @@ footer .copy{
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ07 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ08 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.top08 .ttl_box{
-	background: #cfa972;
-	padding: 0.75rem 1.5rem;
-}
-.top08 .ttl_box h2{
-	color: #fff;
-	text-align: center;
-	font-size: 1.5rem;
-	letter-spacing: 0.1rem;
-}
-.top08 .top08_in{
+.top08{
 	padding: 2.5rem 0 3rem;
 	background: url(../images/top/top08_back_sp.jpg) 40% 0% / cover no-repeat;
 }
-.top08_in h3{
+.top08 .ttl_box{
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+.top08 .ttl_box h2{
+	font-size: 1.3rem;
+	letter-spacing: 0.1rem;
+}
+.top08 h3{
 	width: 90%;
 	margin: 0 auto;
 	font-size: 1.3rem;
@@ -695,20 +709,20 @@ footer .copy{
 	border-bottom: solid 2px #d2a568;
 	text-align: center;
 }
-.top08_in .box{
+.top08 .box{
 	margin-top: 2.5rem;
 }
-.top08_in .box .item{
+.top08 .box .item{
 	margin-top: 2rem;
 }
-.top08_in .box .item:first-of-type{
+.top08 .box .item:first-of-type{
 	margin-top: 0;
 }
-.top08_in .box .item .list01{
+.top08 .box .item .list01{
 	width: 90%;
 	margin: 0 auto 2rem;
 }
-.top08_in .box .item .list01 li{
+.top08 .box .item .list01 li{
 	text-align: center;
 	border-radius: 3px;
 	color: #fff;
@@ -717,15 +731,16 @@ footer .copy{
 	margin-top: 0.5rem;
 	letter-spacing: 0.05rem;
 }
-.top08_in .box .item .inner{
+.top08 .box .item .inner{
 	position: relative;
 	width: 100%;
 	background: #fff;
 	border: solid 1px #d2a568;
 	border-radius: 10px;
-	padding: 0.75rem 1rem;
+	/* padding: 0.75rem 1rem; */
+	padding: 1.5rem 1rem;
 }
-.top08_in .box .item .inner::before{
+.top08 .box .item .inner::before{
 	position: absolute;
 	content: '';
 	bottom: 100%;
@@ -737,20 +752,51 @@ footer .copy{
 	border-width: 1rem 1rem 0 1rem;
 	border-color: #d2a568 transparent transparent transparent;
 }
-.top08_in .box .item .inner .list02 li{
+/* .top08 .box .item .inner .list02 li{
 	font-size: 0.9rem;
 }
-.top08_in .box .item .inner .list02 li::before{
+.top08 .box .item .inner .list02 li::before{
 	content: '●';
+} */
+.top08 .box .item .inner .list02{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+}
+.top08 .box .item .inner .list02 li{
+	width: 49%;
+	margin-top: 0.5rem;
+}
+.top08 .box .item .inner .list02 li:nth-of-type(-n+2){
+	margin-top: 0;
+}
+.top08 .box .item .inner .list02 li .img img{
+	width: auto;
+	height: 7.5rem;
+}
+.top08 .box .item .inner .list02 li p{
+	text-align: center;
+	font-size: 0.6rem;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ08 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ09 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.top09{
+.top09 .ttl_box{
+	background: #cfa972;
+	padding: 0.75rem 1.5rem;
+}
+.top09 .ttl_box h2{
+	color: #fff;
+	text-align: center;
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+}
+.top09 .top09_in{
 	padding: 2.5rem 0 3rem;
 	background: url(../images/top/top09_back.jpg) 85% 0% / cover no-repeat;
 }
-.top09 h2{
+.top09 h3{
 	width: 90%;
 	margin: 0 auto;
 	font-size: 1.3rem;
@@ -796,11 +842,6 @@ footer .copy{
 	text-align: center;
 	margin-bottom: 2rem;
 }
-.top10 .ttl_box h2{
-	font-size: 1.3rem;
-	letter-spacing: 0.1rem;
-	margin-bottom: 0.25rem;
-}
 .top10 .ttl_box .logo{
 	width: 15rem;
 	margin: 0 auto 2rem;
@@ -809,11 +850,11 @@ footer .copy{
 	width: 100%;
 	height: auto;
 }
-.top10 .ttl_box h3{
+.top10 .ttl_box h2{
 	font-size: 1.2rem;
 	letter-spacing: 0.1rem;
 }
-.top10 .ttl_box h3 span{
+.top10 .ttl_box h2 span{
 	color: #ea3d3d;
 }
 .top10 .youtube_wrap{
@@ -842,7 +883,7 @@ footer .copy{
 	width: 100%;
 	padding-bottom: 2rem;
 }
-.top10 .item .txt h4{
+.top10 .item .txt h3{
 	color: #b28850;
 	font-size: 1.3rem;
 	letter-spacing: 0.1rem;
