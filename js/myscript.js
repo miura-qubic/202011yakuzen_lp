@@ -26,9 +26,7 @@ $(function () {
 });
 
 $(window).on('load resize', function () {
-	var swiper01, swiper02, swiper03, swiper04, swiper05, swiper06, swiper07, swiper08, swiper09, swiper10;
-
-	swiper01 = new Swiper('.top04 .item01 .slider .swiper-container', {
+	var swiper01 = new Swiper('.top04 .item01 .slider .swiper-container', {
 		loop: true,
 		speed: 1000,
 		slidesPerView: 1,
@@ -54,7 +52,7 @@ $(window).on('load resize', function () {
 		}
 	});
 
-	swiper02 = new Swiper('.top04 .item02 .slider .swiper-container', {
+	var swiper02 = new Swiper('.top04 .item02 .slider .swiper-container', {
 		loop: true,
 		speed: 1000,
 		slidesPerView: 1,
@@ -80,7 +78,7 @@ $(window).on('load resize', function () {
 		}
 	});
 
-	swiper03 = new Swiper('.top04 .item03 .slider .swiper-container', {
+	var swiper03 = new Swiper('.top04 .item03 .slider .swiper-container', {
 		loop: true,
 		speed: 1000,
 		slidesPerView: 1,
@@ -106,7 +104,7 @@ $(window).on('load resize', function () {
 		}
 	});
 	
-	swiper04 = new Swiper('.top04 .item04 .slider .swiper-container', {
+	var swiper04 = new Swiper('.top04 .item04 .slider .swiper-container', {
 		loop: true,
 		speed: 1000,
 		slidesPerView: 1,
@@ -132,7 +130,7 @@ $(window).on('load resize', function () {
 		}
 	});
 
-	swiper05 = new Swiper('.top05 .item01 .slider .swiper-container', {
+	var swiper05 = new Swiper('.top05 .item01 .slider .swiper-container', {
 		loop: true,
 		speed: 1000,
 		slidesPerView: 1,
@@ -158,7 +156,7 @@ $(window).on('load resize', function () {
 		}
 	});
 
-	swiper06 = new Swiper('.top05 .item02 .slider .swiper-container', {
+	var swiper06 = new Swiper('.top05 .item02 .slider .swiper-container', {
 		loop: true,
 		speed: 1000,
 		slidesPerView: 1,
@@ -184,7 +182,7 @@ $(window).on('load resize', function () {
 		}
 	});
 
-	swiper07 = new Swiper('.top05 .item03 .slider .swiper-container', {
+	var swiper07 = new Swiper('.top05 .item03 .slider .swiper-container', {
 		loop: true,
 		speed: 1000,
 		slidesPerView: 1,
@@ -210,7 +208,7 @@ $(window).on('load resize', function () {
 		}
 	});
 
-	swiper08 = new Swiper('.top06 .item01 .slider .swiper-container', {
+	var swiper08 = new Swiper('.top06 .item01 .slider .swiper-container', {
 		loop: true,
 		speed: 1000,
 		slidesPerView: 1,
@@ -236,7 +234,7 @@ $(window).on('load resize', function () {
 		}
 	});
 
-	swiper09 = new Swiper('.top06 .item02 .slider .swiper-container', {
+	var swiper09 = new Swiper('.top06 .item02 .slider .swiper-container', {
 		loop: true,
 		speed: 1000,
 		slidesPerView: 1,
@@ -262,7 +260,7 @@ $(window).on('load resize', function () {
 		}
 	});
 
-	swiper10 = new Swiper('.top07 .item01 .slider .swiper-container', {
+	var swiper10 = new Swiper('.top07 .item01 .slider .swiper-container', {
 		loop: true,
 		speed: 1000,
 		slidesPerView: 1,
@@ -289,20 +287,29 @@ $(window).on('load resize', function () {
 	});
 
 	// スムーススクロール 
-	var headerHeight = $('header').outerHeight();
-	var urlHash = location.hash;
-	if (urlHash) {
-		$('body,html').stop().scrollTop(0);
-		setTimeout(function () {
-			var target = $(urlHash);
-			var position = target.offset().top - headerHeight;
-			$('body,html').stop().animate({ scrollTop: position }, 500);
-		}, 100);
-	}
+	// var headerHeight = $('header').outerHeight();
+	// var urlHash = location.hash;
+	// if (urlHash) {
+	// 	$('body,html').stop().scrollTop(0);
+	// 	setTimeout(function () {
+	// 		var target = $(urlHash);
+	// 		var position = target.offset().top - headerHeight;
+	// 		$('body,html').stop().animate({ scrollTop: position }, 500);
+	// 	}, 100);
+	// }
+	// $('a[href^="#"]').click(function () {
+	// 	var href = $(this).attr("href");
+	// 	var target = $(href);
+	// 	var position = target.offset().top - headerHeight;
+	// 	$('body,html').stop().animate({ scrollTop: position }, 500);
+	// });
+
 	$('a[href^="#"]').click(function () {
+		var speed = 300;
 		var href = $(this).attr("href");
-		var target = $(href);
-		var position = target.offset().top - headerHeight;
-		$('body,html').stop().animate({ scrollTop: position }, 500);
-	});
+		var target = $(href == "#" || href == "" ? 'html' : href);
+		var position = target.offset().top;
+		$("html, body").animate({ scrollTop: position - 100 }, speed, "swing");
+		return false;
+	}); 
 });
