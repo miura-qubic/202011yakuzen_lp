@@ -20,12 +20,24 @@ $(function () {
 	$("body").removeClass("preload");
 	// JQueryの範囲
 
-	
+	$('a[href^="#"]').click(function () {
+		var speed = 300;
+		if (w > spwidth) {
+			var header = 100;
+		} else {
+			var header = 0;
+		}
+		var href = $(this).attr("href");
+		var target = $(href == "#" || href == "" ? 'html' : href);
+		var position = target.offset().top;
+		$("html, body").animate({ scrollTop: position - header }, speed, "swing");
+		return false;
+	}); 
 	
 	
 });
 
-$(window).on('load resize', function () {
+// $(window).on('load resize', function () {
 	// var swiper01 = new Swiper('.top04 .item01 .slider .swiper-container', {
 	// 	loop: true,
 	// 	speed: 1000,
@@ -304,17 +316,5 @@ $(window).on('load resize', function () {
 	// 	$('body,html').stop().animate({ scrollTop: position }, 500);
 	// });
 
-	$('a[href^="#"]').click(function () {
-		var speed = 300;
-		if(w > spwidth){
-			var header = 100;
-		}else{
-			var header = 0;
-		}
-		var href = $(this).attr("href");
-		var target = $(href == "#" || href == "" ? 'html' : href);
-		var position = target.offset().top;
-		$("html, body").animate({ scrollTop: position - header }, speed, "swing");
-		return false;
-	}); 
-});
+
+// });
