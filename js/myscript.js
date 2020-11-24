@@ -306,10 +306,15 @@ $(window).on('load resize', function () {
 
 	$('a[href^="#"]').click(function () {
 		var speed = 300;
+		if(w > spwidth){
+			var header = 100;
+		}else{
+			var header = 0;
+		}
 		var href = $(this).attr("href");
 		var target = $(href == "#" || href == "" ? 'html' : href);
 		var position = target.offset().top;
-		$("html, body").animate({ scrollTop: position - 100 }, speed, "swing");
+		$("html, body").animate({ scrollTop: position - header }, speed, "swing");
 		return false;
 	}); 
 });
