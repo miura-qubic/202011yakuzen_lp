@@ -474,6 +474,28 @@ footer .copy{
 .teaching_materials .r_item .slider .swiper-pagination .swiper-pagination-bullet-active{
 	background: #000;
 }
+.teaching_materials .r_item .slider .swiper-button-prev,
+.teaching_materials .r_item .slider .swiper-button-next{
+	outline: none;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next,
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+	background-image: unset!important;
+	width: 3rem!important;
+	height: 3rem!important;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px #ccc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+	left: -1rem!important;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+	right: -1rem!important;
+}
 .teaching_materials .r_item .slider img{
 	width: 100%;
 	height: auto;
