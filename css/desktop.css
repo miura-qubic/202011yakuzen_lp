@@ -654,7 +654,7 @@ footer .copy{
 .teaching_materials .r_item .slider{
 	position: relative;
 	width: 100%;
-	margin-bottom: 4.5rem;
+	margin-bottom: 3rem;
 }
 .teaching_materials .r_item .slider .swiper-pagination{
 	bottom: -2.5rem;
@@ -693,6 +693,12 @@ footer .copy{
 .teaching_materials .r_item .slider .img img{
 	width: 100%;
 	height: auto;
+}
+.teaching_materials .r_item .supplement{
+	font-size: 0.8rem;
+	font-weight: normal;
+	margin-bottom: 2.5rem;
+	text-align: center;
 }
 
 .teaching_materials .r_item .inner{
